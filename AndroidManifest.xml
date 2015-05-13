@@ -90,9 +90,31 @@
             android:label="@string/title_activity_preference_activity_test" >
         </activity>
         <activity
-            android:name="com.example.tpapp.s4.SelectBookActivity"
+            android:name=".s4.SelectBookActivity"
             android:label="@string/title_activity_select_book" >
         </activity>
+        <activity
+            android:name=".s7.MatrixTest"
+            android:label="@string/title_activity_matrix_test" >
+        </activity>
+        <activity
+            android:name=".s7.MeshTest"
+            android:label="@string/title_activity_mesh_test" >
+        </activity>
+        <activity
+            android:name=".s7.ShaderTest"
+            android:label="@string/title_activity_shader_test" >
+        </activity>
+        <activity
+            android:name="com.example.tpapp.s7.FatPo"
+            android:label="@string/title_activity_fat_po" >
+        </activity>
+        <activity
+            android:name=".s7.Blast"
+            android:label="@string/title_activity_blast" >
+        </activity>
+        <activity 
+            android:name=".s7.Butterfly" android:label="@string/title_activity_butterfly"></activity>
     </application>
 
 </manifest>

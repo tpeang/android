@@ -35,10 +35,7 @@
         android:layout_width="match_parent"
         android:text="自定义View对话框"
         android:onClick="customView"/>  
-        <Button android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:text="自定义View对话框"
-        android:onClick="customView"/>  
+        
     
  	
 

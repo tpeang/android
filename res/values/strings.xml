@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">TPapp</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -20,4 +21,18 @@
     <string name="title_activity_action_bar__tab_nav">ActionBar_TabNav</string>
     <string name="title_activity_preference_activity_test">PreferenceActivityTest</string>
     <string name="title_activity_select_book">SelectBookActivity</string>
+    <string name="title_activity_matrix_test">MatrixTest</string>
+    <string name="title_activity_mesh_test">MeshTest</string>
+    <string name="title_activity_shader_test">ShaderTest</string>
+    <string name="bitmap">位图</string>
+    <string name="line">线性渐变</string>
+    <string name="radial">圆形渐变</string>
+    <string name="sweep">角度渐变</string>
+    <string name="composite">混合</string>
+    <string name="title_activity_fat_po">FatPo</string>
+    <string name="play">播放</string>
+    <string name="stop">停止</string>
+    <string name="title_activity_blast">blast</string>
+    <string name="title_activity_butterfly">butterfly</string>
+
 </resources>
