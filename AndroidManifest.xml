@@ -106,15 +106,49 @@
             android:label="@string/title_activity_shader_test" >
         </activity>
         <activity
-            android:name="com.example.tpapp.s7.FatPo"
+            android:name=".s7.FatPo"
             android:label="@string/title_activity_fat_po" >
         </activity>
         <activity
             android:name=".s7.Blast"
             android:label="@string/title_activity_blast" >
         </activity>
-        <activity 
-            android:name=".s7.Butterfly" android:label="@string/title_activity_butterfly"></activity>
+        <activity
+            android:name=".s7.Butterfly"
+            android:label="@string/title_activity_butterfly" >
+        </activity>
+        <activity
+            android:name=".s7.AnimatorTest"
+            android:label="@string/title_animator_test" >
+        </activity>
+        <activity
+            android:name=".s7.SurfaceViewTest"
+            android:label="@string/title_activity_surface_view_test" >
+        </activity>
+        <activity
+            android:name=".s7.ShowWave"
+            android:label="@string/title_activity_show_wave" >
+        </activity>
+        <activity
+            android:name=".s8.SharedPreferencesTest"
+            android:label="@string/title_activity_shared_preferences_test" >
+        </activity>
+        <activity
+            android:name=".s8.FileTest"
+            android:label="@string/title_activity_file_test" >
+        </activity>
+        <activity
+            android:name=".s8.DBTest"
+            android:label="@string/title_activity_dbtest" >
+        </activity>
+        <activity
+            android:name=".s8.Dict"
+            android:label="@string/title_activity_dict" >
+        </activity>
+        <activity
+            android:name="com.example.tpapp.s8.ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
     </application>
 
 </manifest>

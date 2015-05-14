@@ -34,5 +34,13 @@
     <string name="stop">停止</string>
     <string name="title_activity_blast">blast</string>
     <string name="title_activity_butterfly">butterfly</string>
+    <string name="title_animator_test">animator_test</string>
+    <string name="title_activity_surface_view_test">surfaceViewTest</string>
+    <string name="title_activity_show_wave">showWave</string>
+    <string name="title_activity_shared_preferences_test">sharedPreferencesTest</string>
+    <string name="title_activity_file_test">fileTest</string>
+    <string name="title_activity_dbtest">DBTest</string>
+    <string name="title_activity_dict">Dict</string>
+    <string name="title_activity_result">ResultActivity</string>
 
 </resources>

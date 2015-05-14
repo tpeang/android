@@ -2,12 +2,19 @@ package com.example.tpapp;
 
 import com.example.tpapp.s2.*;
 import com.example.tpapp.s4.SelectBookActivity;
+import com.example.tpapp.s7.AnimatorTest;
 import com.example.tpapp.s7.Blast;
 import com.example.tpapp.s7.Butterfly;
 import com.example.tpapp.s7.FatPo;
 import com.example.tpapp.s7.MatrixTest;
 import com.example.tpapp.s7.MeshTest;
 import com.example.tpapp.s7.ShaderTest;
+import com.example.tpapp.s7.ShowWave;
+import com.example.tpapp.s7.SurfaceViewTest;
+import com.example.tpapp.s8.DBTest;
+import com.example.tpapp.s8.Dict;
+import com.example.tpapp.s8.FileTest;
+import com.example.tpapp.s8.SharedPreferencesTest;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -30,7 +37,10 @@ public class MainActivity extends Activity {
 			AlertDialogTest.class, DateDialogTest.class, MenuTest.class,
 			ContextMenuTest.class, ActionBar_TabNav.class,
 			PreferenceActivityTest.class, SelectBookActivity.class,
-			MatrixTest.class, MeshTest.class, ShaderTest.class, FatPo.class,Blast.class ,Butterfly.class};
+			MatrixTest.class, MeshTest.class, ShaderTest.class, FatPo.class,
+			Blast.class, Butterfly.class, AnimatorTest.class,
+			SurfaceViewTest.class, ShowWave.class, SharedPreferencesTest.class,
+			FileTest.class, DBTest.class,Dict.class};
 
 	String[] arr = new String[] { names[0].getSimpleName(),
 			names[1].getSimpleName(), names[2].getSimpleName() };
