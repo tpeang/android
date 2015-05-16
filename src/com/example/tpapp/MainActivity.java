@@ -1,5 +1,6 @@
 package com.example.tpapp;
 
+import com.example.tpapp.s10.BindServiceTest;
 import com.example.tpapp.s2.*;
 import com.example.tpapp.s4.SelectBookActivity;
 import com.example.tpapp.s7.AnimatorTest;
@@ -15,6 +16,9 @@ import com.example.tpapp.s8.DBTest;
 import com.example.tpapp.s8.Dict;
 import com.example.tpapp.s8.FileTest;
 import com.example.tpapp.s8.SharedPreferencesTest;
+import com.example.tpapp.s9.ContactProviderTest;
+import com.example.tpapp.s9.DictResolverTest;
+import com.example.tpapp.s9.FirstResolver;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -27,9 +31,10 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
+import android.widget.ListView;
 
 public class MainActivity extends Activity {
-	Class<?>[] names = new Class[] { GridLayoutTest.class,
+	Class<?>[] names = new Class[] { BindServiceTest.class,GridLayoutTest.class,
 			CheckButtonTest.class, ToggleButtonTest.class, ClockTest.class,
 			ChronometerTest.class, ImageViewTest.class,
 			SimpleListViewTest.class, ArrayAdapterTest.class,
@@ -40,7 +45,7 @@ public class MainActivity extends Activity {
 			MatrixTest.class, MeshTest.class, ShaderTest.class, FatPo.class,
 			Blast.class, Butterfly.class, AnimatorTest.class,
 			SurfaceViewTest.class, ShowWave.class, SharedPreferencesTest.class,
-			FileTest.class, DBTest.class,Dict.class};
+			FileTest.class, DBTest.class,Dict.class,FirstResolver.class,DictResolverTest.class,ContactProviderTest.class};
 
 	String[] arr = new String[] { names[0].getSimpleName(),
 			names[1].getSimpleName(), names[2].getSimpleName() };
@@ -53,7 +58,7 @@ public class MainActivity extends Activity {
 		}
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		GridView gridView = (GridView) findViewById(R.id.gridViewRoot);
+		ListView gridView = (ListView) findViewById(R.id.gridViewRoot);
 
 		System.out.println(arr);
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
@@ -77,6 +82,7 @@ public class MainActivity extends Activity {
 		});
 
 	}
+	
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

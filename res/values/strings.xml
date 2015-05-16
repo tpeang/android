@@ -42,5 +42,10 @@
     <string name="title_activity_dbtest">DBTest</string>
     <string name="title_activity_dict">Dict</string>
     <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_first_resolver">FirstResolver</string>
+    <string name="title_activity_dict_resolver_test">DictResolverTest</string>
+    <string name="title_activity_contact_provider_test">ContactProviderTest</string>
+    <string name="title_activity_bind_service_test">BindServiceTest</string>
+    <string name="title_activity_comple_service">CompleService</string>
 
 </resources>

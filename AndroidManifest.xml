@@ -8,6 +8,9 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="21" />
 
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -146,8 +149,35 @@
             android:label="@string/title_activity_dict" >
         </activity>
         <activity
-            android:name="com.example.tpapp.s8.ResultActivity"
+            android:name=".s8.ResultActivity"
             android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name=".s9.FirstResolver"
+            android:label="@string/title_activity_first_resolver" >
+        </activity>
+        <activity
+            android:name=".s9.DictResolverTest"
+            android:label="@string/title_activity_dict_resolver_test" >
+        </activity>
+        <activity
+            android:name=".s9.ContactProviderTest"
+            android:label="@string/title_activity_contact_provider_test" >
+        </activity>
+        <activity
+            android:name=".s10.BindServiceTest"
+            android:label="@string/title_activity_bind_service_test" >
+        </activity>
+
+        <service android:name=".s10.BindService" >
+            <intent-filter>
+                <action android:name="org.crazyit.service.BIND_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.example.tpapp.s10.CompleService"
+            android:label="@string/title_activity_comple_service" >
         </activity>
     </application>
 
